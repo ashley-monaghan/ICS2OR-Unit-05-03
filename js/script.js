@@ -21,12 +21,12 @@ if (navigator.serviceWorker) {
  */
 function calculate() {
   // input
-  const a = parseInt(document.getElementById("textbox-a").value)
+  const age = parseInt(document.getElementById("age").value)
   const b = parseInt(document.getElementById("textbox-b").value)
   const c = parseInt(document.getElementById("textbox-c").value)
 
   // process
-  const math = a + b + c
+  const math = a
   // output
   document.getElementById("math").innerHTML = "Numbers: " + math + " units"
 }
