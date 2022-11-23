@@ -22,8 +22,6 @@ if (navigator.serviceWorker) {
 function calculate() {
   // input
   const age = parseInt(document.getElementById("age").value)
-  const b = parseInt(document.getElementById("textbox-b").value)
-  const c = parseInt(document.getElementById("textbox-c").value)
 
   // process
   const math = a
