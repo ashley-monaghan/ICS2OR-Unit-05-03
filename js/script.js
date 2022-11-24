@@ -18,28 +18,17 @@ if (navigator.serviceWorker) {
 function calculate() {
   let inputedAge = document.getElementById("age").checked
 
-  if (inputedAge >= 17) {
-    //code
+  if (inputedAge >=17) {
+    document.write =
+      "G, Pg13 and R"
   } else if (inputedAge >= 13) {
-    //code
+    document.write =
+      "G and Pg13"
   } else if (inputedAge <= 12) {
-    //code
+    document.write =
+      "G"
   } else {
-    document.getElementById("number-value").innerHTML = "Value is: " + 5756
+    document.write =
+      "Error"
   }
 }
-
-/**
- * This function displays an alert.
- * Math
- */
-//function calculate() {
-// input
-const age = parseInt(document.getElementById("age").value)
-const b = parseInt(document.getElementById("b").value)
-
-// process
-const math = age + b
-// output
-document.getElementById("math").innerHTML = "Numbers: " + math + " units"
-//}

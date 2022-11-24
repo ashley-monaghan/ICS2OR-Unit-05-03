@@ -69,20 +69,21 @@
         />
         <p>Blah Blah Blah:</p>
         <!-- First text box | Numeric Textfield with text beside textbox -->
-        <div id="number-value"></div>
-        <form action="#">
-          Age:
-          <div class="mdl-textfield mdl-js-textfield">
-            <input
-              class="mdl-textfield__input"
-              type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
-              id="age"
-              aria-label="Age"
-            />
-            <span class="mdl-textfield__error">Input is not a number!</span>
-          </div>
-        </form>
+        <div id="number-value">
+          <form action="#">
+            Age:
+            <div class="mdl-textfield mdl-js-textfield">
+              <input
+                class="mdl-textfield__input"
+                type="text"
+                pattern="-?[0-9]*(\.[0-9]+)?"
+                id="age"
+                aria-label="Age"
+              />
+              <span class="mdl-textfield__error">Input is not a number!</span>
+            </div>
+          </form>
+        </div>
         <!-- Raised button with ripple for math -->
         <button
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
