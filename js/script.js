@@ -28,7 +28,6 @@ function calculate() {
     document.getElementById("number-value").innerHTML =
       "Value is: " + randomNumber
   }
-
 }
 
 /**
@@ -36,12 +35,12 @@ function calculate() {
  * Math
  */
 //function calculate() {
-  // input
-  const age = parseInt(document.getElementById("age").value)
-  const b = parseInt(document.getElementById("b").value)
+// input
+const age = parseInt(document.getElementById("age").value)
+const b = parseInt(document.getElementById("b").value)
 
-  // process
-  const math = age + b
-  // output
-  document.getElementById("math").innerHTML = "Numbers: " + math + " units"
+// process
+const math = age + b
+// output
+document.getElementById("math").innerHTML = "Numbers: " + math + " units"
 //}
