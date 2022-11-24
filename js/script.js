@@ -26,7 +26,7 @@ function calculate() {
     //code
   } else {
     document.getElementById("number-value").innerHTML =
-      "Value is: " + randomNumber
+      "Value is: " + 5756
   }
 }
 
