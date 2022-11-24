@@ -16,7 +16,7 @@ if (navigator.serviceWorker) {
 }
 
 function calculate() {
-  //let inputedAge = document.getElementById("age").checked
+  let inputedAge = document.getElementById("age").checked
 
   if (inputedAge >= 17) {
     document.write = "G, Pg13 and R"
