@@ -25,8 +25,7 @@ function calculate() {
   } else if (inputedAge <= 12) {
     //code
   } else {
-    document.getElementById("number-value").innerHTML =
-      "Value is: " + 5756
+    document.getElementById("number-value").innerHTML = "Value is: " + 5756
   }
 }
 
