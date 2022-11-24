@@ -19,12 +19,12 @@ function calculate() {
   let inputedAge = document.getElementById("age").value
 
   if (inputedAge >= 17) {
-    document.getElementById("answer").value = "G, Pg13 and R"
+    document.getElementById("answer").innerHTML = "G, Pg13 and R"
   } else if (inputedAge >= 13) {
-    document.getElementById("answer").value = "G and Pg13"
+    document.getElementById("answer").innerHTML = "G and Pg13"
   } else if (inputedAge <= 12) {
-    document.getElementById("answer").value = "G"
+    document.getElementById("answer").innerHTML = "G"
   } else {
-    document.getElementById("answer").value = "Error"
+    document.getElementById("answer").innerHTML = "Error"
   }
 }
