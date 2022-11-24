@@ -16,22 +16,24 @@ if (navigator.serviceWorker) {
 }
 
 /**
- * This function displays the slider value.
+ * This function displays an alert.
+ * Math
  */
-function myButtonClicked() {
-  let inputedAge = document.getElementById("age").checked
+function calculate() {
+  // input
+  const age = parseInt(document.getElementById("age").value)
+  const b = parseInt(document.getElementById("b").value)
 
-  if (inputedAge >= 17) {
-    document.getElementById("number-value").innerHTML =
-      "Value is: 1" + randomNumber
-  } else if (inputedAge >= 13) {
-    document.getElementById("number-value").innerHTML =
-      "Value is: 2" + randomNumber
-  } else if (inputedAge <= 12) {
-    document.getElementById("number-value").innerHTML =
-      "Value is: 3" + randomNumber
-  } else {
-    document.getElementById("number-value").innerHTML =
-      "Value is: 4" + randomNumber
-  }
+  // process
+  const math = age + b
+  // output
+  document.getElementById("math").innerHTML = "Numbers: " + math + " units"
+}
+
+/**
+ * This function displays an alert.
+ * Words
+ */
+function button() {
+  document.getElementById("words").innerHTML = "<p>Hello, World!</p>"
 }
