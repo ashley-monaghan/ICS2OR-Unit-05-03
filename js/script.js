@@ -16,7 +16,7 @@ if (navigator.serviceWorker) {
 }
 
 function calculate() {
-  let inputedAge = age
+  let inputedAge = document.getElementById("age").checked
 
   if (inputedAge >= 17) {
     //code
