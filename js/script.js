@@ -15,11 +15,27 @@ if (navigator.serviceWorker) {
   })
 }
 
+function calculate() {
+  let inputedAge = age
+
+  if (inputedAge >= 17) {
+    //code
+  } else if (inputedAge >= 13) {
+    //code
+  } else if (inputedAge <= 12) {
+    //code
+  } else {
+    document.getElementById("number-value").innerHTML =
+      "Value is: " + randomNumber
+  }
+
+}
+
 /**
  * This function displays an alert.
  * Math
  */
-function calculate() {
+//function calculate() {
   // input
   const age = parseInt(document.getElementById("age").value)
   const b = parseInt(document.getElementById("b").value)
@@ -28,12 +44,4 @@ function calculate() {
   const math = age + b
   // output
   document.getElementById("math").innerHTML = "Numbers: " + math + " units"
-}
-
-/**
- * This function displays an alert.
- * Words
- */
-function button() {
-  document.getElementById("words").innerHTML = "<p>Hello, World!</p>"
-}
+//}
